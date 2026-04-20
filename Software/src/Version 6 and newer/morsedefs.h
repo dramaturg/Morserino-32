@@ -389,6 +389,9 @@ enum prefPos : uint8_t {
 #ifdef CONFIG_DISPLAYWRAPPER
   posTheme,
 #endif
+#ifdef CONFIG_CW_GAME
+  posInvaderOrient,
+#endif
   posSerialOut,
   // to be treated differently:
   posKochFilter, posLoraBand,  posLoraQRG, posLoraPower,
